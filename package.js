@@ -2,12 +2,12 @@ Package.describe( {
 	name         : 'miro:json2html',
 	version      : '1.0.0',
 	summary      : 'A Meteor Wrapper for json2html',
-	git          : 'https://github.com/MiroHibler/meteor-json2html',
+	git          : 'https://github.com/MiroHibler/meteor-json2html.git',
 	documentation: 'README.md'
 });
 
 Package.onUse( function ( api ) {
-	api.versionsFrom( '1.0.3.1' );
+	api.versionsFrom( 'METEOR@1.0.3.1' );
 
 	api.addFiles([
 		'lib/both/_json2html.js',
@@ -21,7 +21,7 @@ Package.onUse( function ( api ) {
 
 Package.onTest( function ( api ) {
 	api.use( 'tinytest' );
-	api.use( 'json2html' );
+	api.use( 'miro:json2html' );
 
 	api.addFiles( 'json2html_tests.js' );
 });
