@@ -11,8 +11,11 @@ Debugging. Since Meteor has its own powerfull templating engine, _meteor-json2ht
 is mainly usable for easy monitoring changes to any (JSON) _reactive_ data
 without stepping through the debugger.
 
+> **NOTE:** It's also available on the server, though not much useful at the
+moment except for rendering JSON in emails or such.
 
-## Ok so what is json2html?
+
+## OK, so what is json2html?
 
 [json2html](https://github.com/moappi/json2html) is a javascript HTML templating engine which converts json object to
 html using json transforms.
@@ -197,6 +200,9 @@ json2html.config(
 ```
 
 ## Version Info
+
+#### v1.0.2
+ - more README.md update
 
 #### v1.0.1
  - set Meteor version constraint to more general v1.0
