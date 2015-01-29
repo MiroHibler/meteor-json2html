@@ -198,6 +198,10 @@ json2html.config(
 
 ## Version Info
 
+#### v1.0.1
+ - set Meteor version constraint to more general v1.0
+ - README.md update
+
 #### v1.0.0
  - Initial version
 
