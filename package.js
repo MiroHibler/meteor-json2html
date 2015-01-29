@@ -1,6 +1,6 @@
 Package.describe( {
 	name         : 'miro:json2html',
-	version      : '1.0.1',
+	version      : '1.0.3',
 	summary      : 'A Meteor Wrapper for json2html',
 	git          : 'https://github.com/MiroHibler/meteor-json2html.git',
 	documentation: 'README.md'

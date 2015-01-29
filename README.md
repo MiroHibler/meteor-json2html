@@ -201,6 +201,9 @@ json2html.config(
 
 ## Version Info
 
+#### v1.0.3
+ - version bump
+
 #### v1.0.2
  - more README.md update
 
